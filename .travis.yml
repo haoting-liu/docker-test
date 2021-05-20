@@ -11,6 +11,6 @@ before_deploy:
 
 deploy:
   provider: script
-  script: docker push dockerTest
+  script: docker push haoting-liu/docker-test
   on: 
     branch: master
