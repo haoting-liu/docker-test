@@ -11,6 +11,6 @@ before_deploy:
 
 deploy:
   provider: script
-  script: docker push haoting-liu/docker-test
+  script: docker push mannydesignes/node
   on: 
     branch: master
