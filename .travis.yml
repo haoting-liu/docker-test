@@ -7,7 +7,7 @@ script:
   - docker images mannydesigns/node
 
 before_deploy:
-  - docker login -u haoting515 -p Iamtheboss515
+  - docker login -u <haoting515> -p <Iamtheboss515>
 
 deploy:
   provider: script
