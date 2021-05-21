@@ -3,14 +3,14 @@ services:
   - docker
 
 script:
-  - docker build -t mannydesigns/node .
-  - docker images mannydesigns/node
+  - docker build -t haoting515/node .
+  - docker images haoting515/node
 
 before_deploy:
   - docker login -u haoting515 -p Iamtheboss515
 
 deploy:
   provider: script
-  script: docker push mannydesigns/node
+  script: docker push haoting515/node
   on: 
     branch: master
